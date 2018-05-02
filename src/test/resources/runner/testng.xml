@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test name="HomePageTitleTest">
+		<classes>
+			<class name="question2.testcases.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="MeetingPage_Title_And_Search_Test">
+		<classes>
+			<class name="question2.testcases.MeetingPageTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="LocationPage_location_And_Today_Hours_Test">
+		<classes>
+			<class name="question2.testcases.LocationPageTest" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->
